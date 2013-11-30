@@ -1,0 +1,12 @@
+{
+    "name": "sumador",
+    "author": {
+        "name": "José Antonio",
+        "email": "joseantonio.jimenez@uca.es"
+    },
+    "version": "0.0.1",
+    "scripts": {"start": "node sumador.js"},
+    "dependencies": {
+        "querystring": "latest"
+    }
+}

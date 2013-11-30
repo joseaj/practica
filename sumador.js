@@ -1,6 +1,7 @@
 var http = require('http'),
     fs = require('fs'),
-    qs = require('querystring');
+    qs = require('querystring'),
+    PORT = process.env.PORT || 80;
 
 var app = http.createServer();
 
@@ -36,7 +37,6 @@ app.on('request', function (req, res) {
     }
 });
 
-app.listen(8000, function () {
-    console.log('Servidor en puerto 8000');
+app.listen(PORT, function () {
+    console.log('Servidor en puerto', PORT);
 });
-    

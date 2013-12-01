@@ -1,7 +1,7 @@
 var http = require('http'),
     fs = require('fs'),
     qs = require('querystring'),
-    PORT = process.env.PORT || 80;
+    PORT = process.env.PORT || 8000;
 
 var app = http.createServer();
 
